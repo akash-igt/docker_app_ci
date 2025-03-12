@@ -22,7 +22,7 @@ jobs:
       run: |         
         echo $USER
         echo $PASS
-        docker build . --file Dockerfile --tag arunvel1988/devops--feb-2025-v1:latest
+        docker build . --file Dockerfile --tag akashigt/devops-mar-2025-v1:latest
         docker login -u $USER -p $PASS        
-        docker push arunvel1988/devops--feb-2025-v1:latest
+        docker push akashigt/devops-mar-2025-v1:latest
 
